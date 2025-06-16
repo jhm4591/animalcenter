@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="inner">
+            <div class="user-menu">
+                <a href="#" id="one">HOME</a>
+                <a href="#">회원가입</a>
+                <a href="로그인.html">로그인</a>
+                <a href="#">한국어</a>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div class="wrap">
+                <a href="#"><img src="images/LOGO.png" alt=""></a>
+
+                <div class="hamburger" id="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                <nav class="nav" id="nav">
+                    <ul>
+                        <li><a href="#">개·고양이</a></li>
+                        <li><span>|</span></li>
+                        <li><a href="#">그외동물</a></li>
+                        <li><span>|</span></li>
+                        <li><a href="#">전단지 제작</a></li>
+                        <li><span>|</span></li>
+                        <li><a href="#">재회 후기</a></li>
+                        <li><span>|</span></li>
+                        <li><a href="subpage.html" target="_blank">공지사항</a></li>
+                        <li><span>|</span></li>
+                        <li><a href="#">구조분양</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="side-nav">
+        <div class="nav-icon"><img src="images/side_nav_dog.png" alt=""></div>
+        <ul>
+            <li><a href="#main_visual">재회담 및 공지</a></li>
+            <li><a href="#sos">신고하기</a></li>
+            <li><a href="#adoption">반려동물 입양</a></li>
+            <li><a href="#project">캠페인 및 후원</a></li>
+        </ul>
+        <div class="to-top">
+            <a href="#">
+                <img src="images/to_top.png" alt="">
+            </a>
+        </div>
+    </section>
+    <section class="main_visual" id="main_visual">
+        <div class="inner">
+            <div class="swiper main_visual">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <h1>왜 제보해야할까요?</h1>
+                        <img src="images/main_visual01.png" alt="">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>
+                            갑작스럽게 아이가 사라져
+                            너무 막막했지만,<br>
+                            여러분의 소중한 제보 덕분에 <br>
+                            무사히 찾을 수 있었습니다. <br>
+                            진심으로 감사드립니다. <br>
+                            앞으로도 따뜻한 나눔이 계속되길 바래요.
+                        </p>
+                        <a href="#">재회 후기</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="two">
+                            <img src="images/main_visual02.png" alt="">
+                            <h1>실종, 구조 등 위급상황 <br><br>대처방법을 한눈에!</h1>
+                            <a href="subpage.html" target="_blank">공지사항</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            slidesPerView: 1,
+            spaceBetween: 20,
+        });
+    </script>
+    <section class="give">
+        <div class="inner">
+            <div class="top">
+                <img src="images/givedog.png" alt="">
+                <p>고통 속 동물들 <span>시민의 후원이 힘</span> 입니다.</p>
+            </div>
+            <div class="banner">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa-regular fa-calendar"></i>정기후원
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-circle-info"></i>후원안내
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-heart"></i>결연후원
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-droplet"></i>후원증액
+                        </a>
+                    </li>
+                </ul>
+            </banner>
+        </div>
+    </section>
+    <section class="sos" id="sos">
+        <div class="inner">
+            <div class="top">
+                <h1>신고, 구조, 목격담이 필요합니다.</h1>
+                <a href="">신고하기</a>
+            </div>
+            <div class="bottom">
+                <div class="cards">
+                    <div class="card_card01">
+                        <img src="images/card01.png" alt="">
+                        <div class="title">
+                            <h3>치즈 (4세) <i class="fa-solid fa-mars fa-2xs" style="color: #2478ff;"></i></h3>
+                            <p>코리아 숏 헤어</p>
+                        </div>
+                        <p>주황색과 흰색 털(턱과 가슴, 코 주변이 흰색)
+                            얼굴이 둥글고 약간은 무심한 듯한 표정</p>
+                        <span>실종날짜: 2025-02-23</span>
+                    </div>
+                    <div class="card_card02">
+                        <img src="images/card02.png" alt="">
+                        <div class="title">
+                            <h3>춘식이 (5세) <i class="fa-solid fa-mars fa-2xs" style="color: #2478ff;"></i></h3>
+                            <p>브리티시</p>
+                        </div>
+                        <p>회색과 흰색 털 (특히 몸통은 회색, 발과 가슴은 흰색) 귀엽고 통통한 인상, 얼굴이 넓적하고 눈이 둥글다
+                            실내(유리 안)에서 촬영, 인형 옆에 있음</p>
+                        <span>실종날짜: 2025-02-26</span>
+                    </div>
+                    <div class="card_card03">
+                        <img src="images/card03.png" alt="">
+                        <div class="title">
+                            <h3>영심이 (9세) <i class="fa-solid fa-venus" style="color: #ff0f0f;"></i></h3>
+                            <p>믹스견</p>
+                        </div>
+                        <p>황갈색 털, 약간 작은 크기, 다소 통통하고 처음 본 사람도 따라감</p>
+                        <span>실종날짜: 2025-03-01</span>
+                    </div>
+                    <div class="card_card04">
+                        <img src="images/card04.png" alt="">
+                        <div class="title">
+                            <h3>뚱이 (1세) <i class="fa-solid fa-mars fa-2xs" style="color: #2478ff;"></i></h3>
+                            <p>불독</p>
+                        </div>
+                        <p>흰색과 베이지색 털, 약간 통통한 체형, 사람보면 도망가는척</p>
+                        <span>실종날짜: 2025-03-14</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="video">
+        <iframe src="https://youtube.com/embed/MdktD--_9hE?si=DAyPFeuupEAY64BA" 
+        frameborder="0" allowfullscreen></iframe>
+    </section>
+    <section class="adoption" id="adoption">
+        <div class="inner">
+            <div class="swiper adoption">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/adoptiondog01.png" alt="강아지1" id="dog">
+                        <div class="text">
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <i class="fa-solid fa-quote-left"></i>
+                            <p>호기심 많고 똑똑한 성격의 사랑스러운 아기 강아지예요. <br> 사람 손길을 좋아하고 안기면 금세 잠들어요. <br>든든한 보호자가 되어줄 따뜻한 가족을 기다리고 있습니다.</p>
+                            <p>-장현민, 유기견 신고자</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/adoptiondog02.png" alt="강아지2" id="dog">
+                        <div class="text">
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <i class="fa-solid fa-quote-left"></i>
+                            <p>작고 포근한 몸집에 애교가 넘치는 아기 천사예요.<br>
+                                사람을 보면 꼬리를 흔들며 먼저 다가올 만큼 사교적입니다.<br>
+                                이 아이의 첫 가족이 되어 주세요!</p>
+                            <p>-오현민, 유기견 신고자</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/adoptiondog03.png" alt="강아지3" id="dog">
+                        <div class="text">
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <i class="fa-solid fa-quote-left"></i>
+                            <p>인형 같은 외모와 순한 성격을 가진 복덩이 강아지예요.<br>
+                                혼자서도 잘 놀지만, 관심받는 걸 무척 좋아한답니다.<br>
+                                마음을 나눌 따뜻한 집을 찾고 있어요.</p>
+                            <p>-임병안, 유기견 보호자</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <section class="project" id="project">
+        <div class="inner">
+            <div class="swiper project">
+                <img src="images/campaign.png" alt="" id="campaign">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="text">
+                            <a href="#">
+                                <h2>후원하기</h2>
+                            </a>
+                            <p>도움이 필요한 동물들에게 사용됩니다.</p>
+                            <img src="images/paindog01.png" alt="">
+                            <span>울산광역시 불법 번식장 구조견</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="text">
+                            <a href="#">
+                                <h2>후원하기</h2>
+                            </a>
+                            <p>도움이 필요한 동물들에게 사용됩니다.</p>
+                            <img src="images/paindog02.png" alt="">
+                            <span>울산광역시 불법 번식장 구조견</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="text">
+                            <a href="#">
+                                <h2>후원하기</h2>
+                            </a>
+                            <p>도움이 필요한 동물들에게 사용됩니다.</p>
+                            <img src="images/paindog03.png" alt="">
+                            <span>울산광역시 불법 번식장 구조견</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="text">
+                            <a href="#">
+                                <h2>후원하기</h2>
+                            </a>
+                            <p>도움이 필요한 동물들에게 사용됩니다.</p>
+                            <img src="images/paindog04.png" alt="">
+                            <span>울산광역시 불법 번식장 구조견</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="text">
+                            <a href="#">
+                                <h2>후원하기</h2>
+                            </a>
+                            <p>도움이 필요한 동물들에게 사용됩니다.</p>
+                            <img src="images/paindog05.png" alt="">
+                            <span>울산광역시 불법 번식장 구조견</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="text">
+                            <a href="#">
+                                <h2>후원하기</h2>
+                            </a>
+                            <p>도움이 필요한 동물들에게 사용됩니다.</p>
+                            <img src="images/paindog06.png" alt="">
+                            <span>울산광역시 불법 번식장 구조견</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="inner">
+            <div class="left">
+                <div class="left_top">
+                    <a href="" id="first">전국 공고내역</a>
+                    <span>|</span>
+                    <a href="">동물보호센터 연락처</a>
+                    <span>|</span>
+                    <a href="">동물보호 업무 부서</a>
+                </div>
+                <div class="left_bottom">
+                    <a href="" id="first">개인정보취급방침</a>
+                    <span>|</span>
+                    <a href="">&copy;동물보호센터 <span>Since 2004</span></a>
+                </div>
+            </div>
+            <div class="right">
+                <a href="#"><i class="fa-solid fa-comment" style="color: #ffffff;"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var mainSwiper = new Swiper('.main_visual .swiper', {
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            },
+            navigation: {
+                nextEl: '.main_visual .swiper-button-next',
+                prevEl: '.main_visual .swiper-button-prev'
+            },
+            slidesPerView: 1,
+            spaceBetween: 20
+        });
+
+        var adoptionSwiper = new Swiper('.swiper.adoption', {
+            loop: true,
+            navigation: {
+                nextEl: '.swiper.adoption .swiper-button-next',
+                prevEl: '.swiper.adoption .swiper-button-prev'
+            },
+            slidesPerView: 1,
+            spaceBetween: 20
+        });
+
+
+        var projectSwiper = new Swiper('.swiper.project', {
+            loop: true,
+            slidesPerView: 1,
+            grabCursor: true,
+            navigation: {
+                nextEl: '.swiper.project .swiper-button-next',
+                prevEl: '.swiper.project .swiper-button-prev'
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>로그인 페이지</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  
+  <style>
+    .login{height: 953px; display: flex; flex-direction: column;}
+    .login .inner{margin: 0; width: 333px; height: 311px; margin: auto;}
+    .login .inner .input{width: 328px; height: 45px; border: 1px solid #F4A261; border-radius: 10px;margin-bottom: 10px;}
+    .login .inner img{margin-bottom: 30px;}
+    .login .inner .check{display: flex; margin-bottom: 30px;}
+    .login .inner .check > span{padding-top: 5px; font-size: 0.8rem; font-weight: lighter;}
+    .login .inner button{width: 333px; height: 50px; margin-bottom: 25px; border-radius: 15px; border: none; background-color: #FFECD1;}
+    .login .inner button:hover{background-color: #F4A261;}
+    .login .inner button:active{background-color: #E76F51;}
+    .login .inner .a{display: flex; justify-content: space-between; width: 150px; margin: auto;}
+    .login .inner .a a{color: #6E6E6E;}
+    .login .inner .a a:hover{color: #3D3D3D;}
+    .login .inner .a .aone{}
+    .login .inner .a .two{}
+  </style>
+</head>
+<body>
+  <section class="login">
+    <div class="inner">
+      <a href="index.html"><img src="images/LOGO.png" alt=""></a>
+      <input type="text" id="" placeholder="아이디" class="input">
+      <br>
+      <input type="password" id="" placeholder="비밀번호" class="input">
+      <label for="checkbox" class="check">
+        <input type="checkbox" id="checkbox">
+        <span>아이디 기억하기</span>
+      </label>
+      <button type="submit">로그인</button> 
+      <br>
+      <div class="a">
+        <div class="aone"><a href="#">회원가입</a></div>
+        <div class="atwo"><a href="#">내 계정 찾기</a></div>
+      </div>  
+    </div>
+  </section>
+</body>
+</html>
