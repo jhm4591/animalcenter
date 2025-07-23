@@ -20,7 +20,7 @@
 
 - HTML5
 - CSS3
-- JavaScript (필요 시)
+- JavaScript
 - GitHub Pages
 
 ---
