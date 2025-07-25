@@ -33,9 +33,9 @@
 
 ## 📸 미리보기
 
-| 메인 페이지 | 동물 목록 | 상세 정보 |
+| 메인 페이지 | 서브페이지(공지사항) |
 |------------|----------|-----------|
-| <img width="1103" height="547" alt="동물보호협회 1" src="https://github.com/user-attachments/assets/317fc4b7-f41b-4201-bb69-453daa6349d8" /> | ![list](<!-- 이미지 URL 넣기 -->) | ![detail](<!-- 이미지 URL 넣기 -->) |
+| <img width="1103" height="547" alt="동물보호협회 1" src="https://github.com/user-attachments/assets/317fc4b7-f41b-4201-bb69-453daa6349d8" /> | <img width="480" height="4915" alt="모바일" src="https://github.com/user-attachments/assets/f0443e21-f780-4f86-98af-21c8e1cf9aae" /> |
 
 
 <!-- 예시:
