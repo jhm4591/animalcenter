@@ -19,6 +19,10 @@
 | Frontend | HTML, CSS, JavaScript |
 | Deployment | GitHub Pages |
 
+## 🗓️ 작업 기간
+
+- 2025년 4월 ~ 2025년 5월
+  
 ---
 
 ## 🖥️ 주요 기능
