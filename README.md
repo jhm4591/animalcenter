@@ -33,9 +33,9 @@
 
 ## 📸 미리보기
 
-| 메인 페이지 | 서브페이지(공지사항) |
-|------------|----------|-----------|
-| <img width="1103" height="547" alt="동물보호협회 1" src="https://github.com/user-attachments/assets/317fc4b7-f41b-4201-bb69-453daa6349d8" /> | ![공지사항](https://github.com/user-attachments/assets/3a91eaef-0593-41e4-9bb0-5c370afe770a) |
+| 메인 페이지 | 서브페이지 (공지사항) |
+|-------------|------------------------|
+| <img src="https://github.com/user-attachments/assets/317fc4b7-f41b-4201-bb69-453daa6349d8" width="500"/> | <img src="https://github.com/user-attachments/assets/3a91eaef-0593-41e4-9bb0-5c370afe770a" width="500"/> |
 
 
 <!-- 예시:
