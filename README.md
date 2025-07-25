@@ -8,25 +8,22 @@
 ## 📌 프로젝트 소개
 
 - 개인프로젝트로 진행하였습니다.
-- 전국 유기동물 보호센터의 정보를 제공하는 웹사이트입니다.
-- 사용자는 지역별 보호소에 있는 유기동물 정보를 조회하고, 입양 가능 여부를 확인할 수 있습니다.
-- 공공데이터 API를 활용하여 실시간 데이터를 가져옵니다.
-
----
+- 유기동물 보호를 위한 정보 제공 웹사이트입니다.
+- 사용자는 보호 중인 동물들의 정보를 보고, 입양 여부를 확인할 수 있습니다.
+- 실제 API 없이 정적인 HTML, CSS, JavaScript를 사용해 구현되었습니다.
 
 ## ⛏️ 사용 기술
 
 | Category | Stack |
 |---------|-------|
 | Frontend | HTML, CSS, JavaScript |
-| API | 공공데이터포털 유기동물 정보 API |
 | Deployment | GitHub Pages |
 
 ---
 
 ## 🖥️ 주요 기능
 
-- ✅ 지역별 보호 동물 정보 검색
+- ✅ 동물별 보호 정보 검색
 - ✅ 보호소 정보 및 위치 확인
 - ✅ 동물 상세 정보 페이지 제공
 - ✅ 반응형 UI 지원 (모바일/태블릿/PC)
@@ -38,7 +35,8 @@
 
 | 메인 페이지 | 동물 목록 | 상세 정보 |
 |------------|----------|-----------|
-| ![main](<!-- 이미지 URL 넣기 -->) | ![list](<!-- 이미지 URL 넣기 -->) | ![detail](<!-- 이미지 URL 넣기 -->) |
+| ![main](<img width="1103" height="547" alt="동물보호협회 1" src="https://github.com/user-attachments/assets/317fc4b7-f41b-4201-bb69-453daa6349d8" />) | ![list](<!-- 이미지 URL 넣기 -->) | ![detail](<!-- 이미지 URL 넣기 -->) |
+
 
 <!-- 예시:
 ![main](./assets/images/main.png)
@@ -64,17 +62,11 @@ animalcenter/
 
 ---
 
-## 📮 API 출처
-
-- 공공데이터포털 - [유기동물 조회 서비스](https://www.data.go.kr/data/15099892/openapi.do)
-
----
-
 ## 🧑‍💻 개발자
 
 | 이름 | GitHub |
 |------|--------|
-| jhm4591 | [https://github.com/jhm4591](https://github.com/jhm4591) |
+| 장현민 | [https://github.com/jhm4591](https://github.com/jhm4591) |
 
 ---
 
